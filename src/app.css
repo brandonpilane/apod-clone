@@ -2,7 +2,7 @@
 
 /* Inter italic font */
 @font-face {
-  font-family: 'inter';
+  font-family: 'Inter';
   src: url('/static/fonts/Inter-Italic-Variable.ttf') format('truetype');
   font-weight: 100 900;
   font-style: italic;
@@ -10,8 +10,12 @@
 
 /* Inter regular font */
 @font-face {
-  font-family: 'inter';
+  font-family: 'Inter';
   src: url('/static/fonts/Inter-Variable.ttf') format('truetype');
   font-weight: 100 900;
   font-style: normal;
+}
+
+@theme {
+  --font-inter: 'Inter', sans-serif;
 }
