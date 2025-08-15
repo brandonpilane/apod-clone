@@ -16,7 +16,7 @@
 </script>
 
 <nav
-	class="absolute top-0 right-0 left-0 flex w-screen flex-row items-center justify-between px-14 py-4 font-inter"
+	class="absolute top-0 right-0 left-0 z-50 flex w-screen flex-row items-center justify-between px-14 py-4 font-inter"
 >
 	<a
 		class="cursor-pointer text-2xl font-bold"

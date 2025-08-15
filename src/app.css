@@ -18,4 +18,109 @@
 
 @theme {
 	--font-inter: 'Inter', sans-serif;
+	--animate-border-morph: border-morph 60s ease-in-out infinite;
+	@keyframes border-morph {
+		0% {
+			border-bottom-left-radius: 2rem;
+			border-top-left-radius: 2rem;
+			border-bottom-right-radius: 2rem;
+			border-top-right-radius: 2rem;
+		}
+		9.375% {
+			border-bottom-left-radius: 2rem;
+			border-top-left-radius: 2rem;
+			border-bottom-right-radius: 2rem;
+			border-top-right-radius: 2rem;
+		}
+		12.5% {
+			border-bottom-left-radius: 100%;
+			border-top-left-radius: 100%;
+			border-bottom-right-radius: 0;
+			border-top-right-radius: 0;
+		}
+		21.875% {
+			border-bottom-left-radius: 100%;
+			border-top-left-radius: 100%;
+			border-bottom-right-radius: 0;
+			border-top-right-radius: 0;
+		}
+		25% {
+			border-bottom-left-radius: 2rem;
+			border-top-left-radius: 2rem;
+			border-bottom-right-radius: 100%;
+			border-top-right-radius: 2rem;
+		}
+		34.375% {
+			border-bottom-left-radius: 100%;
+			border-top-left-radius: 0;
+			border-bottom-right-radius: 100%;
+			border-top-right-radius: 0;
+		}
+		37.5% {
+			border-bottom-left-radius: 100%;
+			border-top-left-radius: 0;
+			border-bottom-right-radius: 100%;
+			border-top-right-radius: 0;
+		}
+		46.875% {
+			border-bottom-left-radius: 100%;
+			border-top-left-radius: 100%;
+			border-bottom-right-radius: 2rem;
+			border-top-right-radius: 2rem;
+		}
+		50% {
+			border-bottom-left-radius: 100%;
+			border-top-left-radius: 100%;
+			border-bottom-right-radius: 2rem;
+			border-top-right-radius: 2rem;
+		}
+		59.375% {
+			border-bottom-left-radius: 0;
+			border-top-left-radius: 0;
+			border-bottom-right-radius: 0;
+			border-top-right-radius: 0;
+		}
+		62.5% {
+			border-bottom-left-radius: 0;
+			border-top-left-radius: 0;
+			border-bottom-right-radius: 0;
+			border-top-right-radius: 0;
+		}
+		71.875% {
+			border-bottom-left-radius: 2rem;
+			border-top-left-radius: 100%;
+			border-bottom-right-radius: 2rem;
+			border-top-right-radius: 100%;
+		}
+		75% {
+			border-bottom-left-radius: 2rem;
+			border-top-left-radius: 100%;
+			border-bottom-right-radius: 2rem;
+			border-top-right-radius: 100%;
+		}
+		84.375% {
+			border-bottom-left-radius: 2rem;
+			border-top-left-radius: 2rem;
+			border-bottom-right-radius: 0;
+			border-top-right-radius: 2rem;
+		}
+		87.5% {
+			border-bottom-left-radius: 2rem;
+			border-top-left-radius: 2rem;
+			border-bottom-right-radius: 0;
+			border-top-right-radius: 2rem;
+		}
+		96.875% {
+			border-bottom-left-radius: 2rem;
+			border-top-left-radius: 2rem;
+			border-bottom-right-radius: 2rem;
+			border-top-right-radius: 2rem;
+		}
+		100% {
+			border-bottom-left-radius: 2rem;
+			border-top-left-radius: 2rem;
+			border-bottom-right-radius: 2rem;
+			border-top-right-radius: 2rem;
+		}
+	}
 }

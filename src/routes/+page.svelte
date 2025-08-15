@@ -1,1 +1,7 @@
-<h1>Hello SVELTE!</h1>
+<script lang="ts">
+	import Hero from '$lib/components/Hero.svelte';
+</script>
+
+<header>
+	<Hero />
+</header>
