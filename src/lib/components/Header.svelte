@@ -18,7 +18,13 @@
 <header
 	class="absolute top-0 right-0 left-0 flex w-screen flex-row items-center justify-between px-14 py-4 font-inter"
 >
-	<a class="cursor-pointer text-xl font-bold" href="/">APOD.</a>
+	<nav>
+		<a
+			class="cursor-pointer text-2xl font-bold"
+			href="/"
+			aria-label="Astronomy Picture of the Day Home">APOD.</a
+		>
+	</nav>
 	<p class="max-w-[60vw] text-right align-middle">
 		{#if width < 768}
 			Discover the cosmos!
